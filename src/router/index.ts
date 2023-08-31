@@ -8,7 +8,7 @@ const routes = <any>[
 
 const router = createRouter({
   routes,
-  history:createWebHistory(),
+  history:createWebHistory(import.meta.env.VITE_APP_PATH),
 })
 
 export default router
