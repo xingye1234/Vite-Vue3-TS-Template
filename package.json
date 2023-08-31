@@ -1,0 +1,27 @@
+{
+  "name": "artshow",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^9.1.2",
+    "qrcode": "^1.5.3",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "@types/qrcode": "^1.5.2",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "less": "^4.2.0",
+    "typescript": "^5.0.2",
+    "unplugin-auto-import": "^0.16.6",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
