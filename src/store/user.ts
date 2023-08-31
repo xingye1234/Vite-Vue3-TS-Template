@@ -2,8 +2,7 @@ import { defineStore} from 'pinia';
 
 export  const userStore = defineStore('userStore', () => {
   const firstName = ref('w')
-  const lastName = ref('wkx')
-  
+  const lastName = ref('kx')
 
   function setFirstName(params:any){
     firstName.value = params
